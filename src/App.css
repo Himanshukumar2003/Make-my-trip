@@ -1,0 +1,137 @@
+/* Assuming you have a container with the class "login-form" wrapping your form */
+
+.react-multiple-carousel__arrow::before {
+  color:#008cff !important;
+  font-weight: 900 !important;
+  font-size: 30px !important;
+
+}
+
+
+
+.react-multi-carousel-list{
+  overflow: visible !important;
+}
+.react-multiple-carousel__arrow--right{
+position: absolute !important;
+  top: -50px !important;
+  background-color: #fff !important;
+  position: absolute !important;
+  right: 20% !important;
+  border-left: 0 !important;
+  border-radius: 0 20px 20px 0 !important;
+  box-shadow: 2px 0 3px 0 rgba(0, 0, 0, .1) !important;
+  display: flex !important;
+  height: 10px !important;
+  justify-content: center !important;
+  width: 30px !important;
+  color: #008cff !important;
+
+} 
+.react-multiple-carousel__arrow{
+  height: 10px !important;
+}
+
+.react-multiple-carousel__arrow--left{
+  position: absolute !important;
+  top: -50px !important;
+  background-color: #fff !important;
+  position: absolute !important;
+  left: 75% !important;
+  border-left: 0 !important;
+  border-radius: 20px 0 0 20px !important;
+  box-shadow: 2px 0 3px 0 rgba(0, 0, 0, .1) !important;
+  display: flex !important;
+  height: 10px !important;
+  justify-content: center !important;
+  width: 30px !important;
+  color: #008cff !important;
+}
+
+ .react-multi-carousel-list {
+    display: flex !important; 
+    align-items: center !important;
+   
+    position: relative !important;
+} 
+
+
+.login-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.tab {
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+}
+
+.tab.active {
+  background-color: #e0e0e0;
+}
+
+.input-field {
+  margin-bottom: 20px;
+}
+
+.input-field label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.input-field input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.continue-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.continue-button:hover {
+  background-color: #555;
+}
+
+.alternative-login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.icons img {
+  margin: 0 10px;
+  width: 24px;
+  height: 24px;
+}
+
+.terms {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 20px;
+  color: #777;
+}
